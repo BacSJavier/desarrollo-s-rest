@@ -1,7 +1,5 @@
 package com.example.proyectodesarrollosrest.models;
 
-import com.example.proyectodesarrollosrest.models.enums.Categorias;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -28,7 +26,7 @@ public class Materiales {
     private String imagen;
 
     @Column(name = "categoria")
-    private Categorias categoria;
+    private String categoria;
 
     @Column(name = "activo")
     private boolean activo;
